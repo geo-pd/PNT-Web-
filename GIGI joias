@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>GIGI Joias</title>
+</head>
+<body style="background-color:#f4f4f4; font-family:Arial, sans-serif; margin:0; padding:0;">
+
+  <header style="background-color:#d4af37; color:white; padding:20px; text-align:center;">
+    <h1>GIGI Joias</h1>
+    <p>Beleza que brilha para sempre</p>
+  </header>
+
+  <section style="padding:30px; text-align:center;">
+    <h2 style="color:#555;">Joias de Ouro</h2>
+    <img src="https://i.pinimg.com/736x/57/8e/34/578e346888a48c33e0c475705cbe821f.jpg" alt="Anel de Ouro" width="300" style="border:5px solid #d4af37; margin:10px;">
+    <img src="https://i.pinimg.com/736x/ad/6a/ec/ad6aec64c53239d7870ae3dda146740b.jpg" alt="Colar de Ouro" width="300" style="border:5px solid #d4af37; margin:10px;">
+    <p style="max-width:600px; margin: auto; color:#666;">
+      Descubra nossa coleção de ouro, feita para eternizar os momentos mais importantes da sua vida.
+    </p>
+  </section>
+
+  <section style="background-color:#e0e0e0; padding:30px; text-align:center;">
+    <h2 style="color:#333;">Coleção Prata</h2>
+    <img src="https://i.pinimg.com/736x/8b/e5/22/8be522344931bb470269abd9e6a11fb1.jpg" alt="Pulseira de Prata" width="300" style="border:5px solid #c0c0c0; margin:10px;">
+    <img src="https://i.pinimg.com/736x/05/ac/f0/05acf08e16cf72e27d15c6d4f89b3098.jpg" alt="Brincos de Prata" width="300" style="border:5px solid #c0c0c0; margin:10px;">
+    <p style="max-width:600px; margin: auto; color:#444;">
+      Joias em prata pura com design sofisticado para todas as ocasiões.
+    </p>
+  </section>
+
+  <footer style="background-color:#333; color:white; text-align:center; padding:15px;">
+    <p> GIGI joias , presente em todos os momentos da sua vida</p>
+  </footer>
+
+</body>
+</html>
+
