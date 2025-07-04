@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cursos de Graduação</title>
+</head>
+<body>
+<h2><font color="blue">Cursos de Graduação</font></h2>
+  <!-- Lista não ordenada com marcadores quadrados -->
+  <ul type="square">
+    <li><font size="2" color="green">Agronomia</font></li>
+    <li><font size="2" color="brown">Biologia</font></li>
+    <li><font size="2" color="green">Ciência da Computação</font></li>
+    <li><font size="2" color="brown">Direito</font></li>
+    <li><font size="2" color="green">Medicina</font></li>
+    <li><font size="2" color="brown">Nutrição</font></li>
+    <li><font size="2" color="green">Odontologia</font></li>
+    <li><font size="2" color="brown">Pedagogia</font></li>
+    <li><font size="2" color="green">Zootecnia</font></li>
+  </ul>
+
+</body>
+</html>
+
