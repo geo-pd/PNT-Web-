@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>GIGI Joias</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, section, footer {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .topo {
+      background-color: #d4af37;
+      color: white;
+      padding: 20px;
+    }
+
+    .imagem {
+      width: 250px;
+      border: 5px solid #999;
+      margin: 10px;
+      border-radius: 6px;
+    }
+
+    .botao-link {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      background-color: #d4af37;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .secao {
+      margin: 40px auto;
+      max-width: 1000px;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+      background-color: #fff;
+    }
+
+    #ouro {
+      background-color: #fff8dc;
+    }
+
+    #prata {
+      background-color: #f5f5f5;
+    }
+
+    #ouro .imagem {
+      border-color: #d4af37;
+    }
+
+    #prata .imagem {
+      border-color: #c0c0c0;
+    }
+
+    .titulo {
+      font-size: 26px;
+      color: #333;
+    }
+
+    .descricao {
+      color: #444;
+      max-width: 600px;
+      margin: 10px auto 30px;
+    }
+
+    .rodape {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    .voltar-topo {
+      display: block;
+      margin-top: 20px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="topo" id="topo">
+    <h1>GIGI Joias</h1>
+    <p>Beleza que brilha para sempre</p>
+  </header>
+
+  <!-- Página inicial -->
+  <section class="secao">
+    <h2 class="titulo">Bem-vindo à GIGI Joias</h2>
+    <p class="descricao">
+      Explore nossas coleções exclusivas de joias em ouro e prata. Clique abaixo para ver mais.
+    </p>
+    <a class="botao-link" href="#ouro">Ver Coleção Ouro</a>
+    <a class="botao-link" href="#prata">Ver Coleção Prata</a>
+  </section>
+
+  <!-- Seção Ouro -->
+  <section class="secao" id="ouro">
+    <h2 class="titulo">Coleção de Ouro</h2>
+    <p class="descricao">Elegância e sofisticação eternizadas.</p>
+    <img class="imagem" src="https://i.pinimg.com/736x/57/8e/34/578e346888a48c33e0c475705cbe821f.jpg" alt="Anel de Ouro">
+    <img class="imagem" src="https://i.pinimg.com/736x/ad/6a/ec/ad6aec64c53239d7870ae3dda146740b.jpg" alt="Colar de Ouro">
+    <img class="imagem" src="https://i.pinimg.com/736x/dd/3f/67/dd3f676b21d543534ab89a3245855b89.jpg" alt="Pulseira de Ouro">
+    <img class="imagem" src="https://i.pinimg.com/1200x/8b/5b/df/8b5bdfa38145249edc054bdf7cd458e9.jpg" alt="Brinco de Ouro">
+    <a class="voltar-topo" href="#topo">↑ Voltar ao topo</a>
+  </section>
+
+  <!-- Seção Prata -->
+  <section class="secao" id="prata">
+    <h2 class="titulo">Coleção de Prata</h2>
+    <p class="descricao">Design moderno com brilho atemporal.</p>
+    <img class="imagem" src="https://i.pinimg.com/736x/8b/e5/22/8be522344931bb470269abd9e6a11fb1.jpg" alt="Pulseira de Prata">
+    <img class="imagem" src="https://i.pinimg.com/736x/05/ac/f0/05acf08e16cf72e27d15c6d4f89b3098.jpg" alt="Brincos de Prata">
+    <img class="imagem" src="https://i.pinimg.com/736x/69/59/77/695977655ac7c61929267c67edb7909d.jpg" alt="Anel de Prata">
+    <img class="imagem" src="https://i.pinimg.com/736x/cd/59/85/cd5985294f0bad4a79bd96b4892c5c62.jpg" alt="Colar de Prata">
+    <a class="voltar-topo" href="#topo">↑ Voltar ao topo</a>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <p>GIGI Joias – Presente em todos os momentos da sua vida</p>
+  </footer>
+
+</body>
+</html>
